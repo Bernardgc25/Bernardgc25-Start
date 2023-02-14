@@ -1,3 +1,5 @@
+import org.eclipse.jetty.http.HttpTester.Message;
+
 /**
  * Welcome to your first lab! This lab will identify all the different entities that you'll be creating and
  * manipulating in your code. It is purely informational, and you do NOT need to write or change anything in this
@@ -24,9 +26,13 @@ public class GuideMain {
     public static void main(String[] args) {
 //      The Guide object constructor is written to take in an int parameter, which in this case is 1.
         Guide myGuide = new Guide(1);
-        String result = myGuide.guideMethod("hello from main!");
+        String result = myGuide.guideMethod("hello from main!, this is a test");
+        
         System.out.println(result);
-
+        
+        
+     
+    
     }
 }
 /**
